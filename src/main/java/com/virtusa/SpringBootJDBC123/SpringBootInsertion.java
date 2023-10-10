@@ -14,7 +14,7 @@ public class SpringBootInsertion {
 	public String insertrecord() {
 		String query="insert into product1(id,name) values('p102','vineeth')";
 		jdbc.execute(query);
-		return "data inserted succefully"; 
+		return "data inserted succefully ok"; 
 		
 	}
 }
